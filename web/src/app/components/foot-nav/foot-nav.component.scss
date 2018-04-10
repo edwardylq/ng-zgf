@@ -1,0 +1,24 @@
+
+#T-foot{
+    height:1.066667rem;
+    background:pink;
+    ul{
+        display:flex;
+        li{
+            flex:25%;
+            float:left;
+            height:1.066667rem;
+            text-align:center;
+            line-height:1em;
+            padding-top:0.106667rem;
+            font-size:0.346667rem;
+            i{
+                font-size:0.5rem;
+                margin-bottom:0.04rem;
+            }
+            a{
+                display: block;
+            }
+        }
+    }
+}

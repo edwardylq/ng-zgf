@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>AngularProject</title>
+  <base href="/">
+ <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1.0, minimum-scale=1" id="vp" />
+
+ <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+ <link rel="stylesheet" type="text/css" href="./assets/base/base.css"/>
+ <link rel="stylesheet" type="text/css" href="./assets/font-awesome/css/font-awesome.min.css" />
+</head>
+<body>
+    <script type="text/javascript">
+        var wd = document.documentElement.clientWidth * window.devicePixelRatio / 10;
+        document.getElementsByTagName("html")[0].style.fontSize = wd + "px";
+        var scale = 1 / window.devicePixelRatio;
+        var mstr = 'initial-scale=' + scale + ', maximum-scale=' + scale + ', minimum-scale=' + scale + ', user-scalable=no';
+        document.getElementById("vp").content = mstr;
+    </script>
+
+  <app-root></app-root>
+</body>
+</html>
